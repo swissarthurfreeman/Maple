@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2019" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle283" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle284" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal260" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle285" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle286" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle293" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle258" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle298" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle256" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle257" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle294" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle295" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle296" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle260" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="ParagraphStyle1" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="ParagraphStyle2" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output257" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle306" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle307" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[0,0,0]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle308" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle309" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle302" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle303" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle304" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle305" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle265" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle266" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle263" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[0,0,0]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle300" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle267" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle268" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle261" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle262" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle263" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle264" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle270" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle271" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3259" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal256" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[0,0,0]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle310" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle277" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle311" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle278" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle279" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle272" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle273" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle274" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle275" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle280" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle281" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="6" spacebelow="6" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="4" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle262" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="4" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle263" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="4" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal260" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3259" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal256" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4258" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output257" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Footer left-content="" center-content="" right-content="&amp;[Page]" left-image-scale-width="100" center-image-scale-width="100" right-image-scale-width="100" left-image-scale-height="100" center-image-scale-height="100" right-image-scale-height="100" date-format="2" selected-index="0" first-number="1" first-numbered-page="1"/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Annotation-table>
+    <Annotation-category name="&lt;default&gt;"/>
+</Annotation-table>
+<Task/>
+<Group labelreference="L3" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Universit\303\251 de Gen\303\250ve, Semestre de printemps 2020, Laboratoire de Programmation</Font></Text-field><Text-field style="_cstyle256" layout="Normal256"></Text-field><Text-field style="Title" layout="Title"><Font size="22" encoding="UTF-8">Travaux pratiques 4 : Introduction \303\240 Maple</Font></Text-field><Text-field style="Normal256" layout="Normal256"><Font style="_cstyle284">Cliquez sur les triangles &quot;<Image height="20" width="20" zoomable="false" labelreference="L3" drawcaption="false" captionalignment="0" captionposition="1">TUZOV3RLVWI8b2I8Uj1NRExDZE5CRHJAS2I7Yj1bUm1XXTs+XUNfYjtfZHJPdUdBdXdwWzxAYEp2WmpRbDxXZkZYYFtvXmZOXFxMbm07eGhaP3hTX3VyT1xcUWZrZVhraEBgdEhgakBwaj5cXEB2XFxQVm5PTmJSXm9FSHBrbl5sSXRsd3lecWpwZl14Z3FfUW1kRmJKPl5CSWRqbnJOQFxcbE9vZFBnQUFwQT5oOldzbEBvXUFhbWFeQ29vc29tTWZjTXFrSkBwRFZyV2FpWXlldnBcXG9nZV1gYEdHXFxeXl9BXnlGXlxcZnljWl5cXGZ5ZTpJX2tobTtQcGtYajpQYGpYbjtmYltnSklIa09yO1dSa09UO2dZaj9VUWl4b2dXVWFScDtUT2VUXj1FQEtYV3VYYE1lYG9kX0V1TEdCUUVUTmNVd3NzdXNpSWlTb0tyRFFodmVYaWdjXUF5S2FIR2lpZ1V1R1N1WFFoSGtmVmlSYG9Sa095PEVTP2t4O0VDQWtDP0VDO2tjQ09FRztHRGNIQjtHPWN0UztHVWN4UTtYRF10ST1GTltEQVtmTk92altDO0Vmcjt2P2dmYktjd1tGTnN4VEdieFloamFiaUNjeD1IUHFlVVlAO1JMRWRNQ2RlP0RSPz46Ojo6OjQ6XCJce1x9<Drawing-Root>LSUrQU5OT1RBVElPTkc2Jy0lKUJPVU5EU19YRzYjJCIiISEiIi0lKUJPVU5EU19ZR0YnLSUtQk9VTkRTX1dJRFRIRzYjJCIkKyNGKi0lLkJPVU5EU19IRUlHSFRHRi8tJSlDSElMRFJFTkc2Ig==</Drawing-Root></Image><Font encoding="UTF-8">&quot; pour d\303\251ployer le texte.</Font></Font></Text-field>
+</Input>
+</Group><Text-field style="Text" layout="Normal"></Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Introduction</Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple est un logiciel de calcul formel, c'est-\303\240-dire un logiciel qui permet de faire des math\303\251matiques en manipulant des expressions symboliques. Contrairement \303\240 la plupart des langages classiques de programmation il peut traiter non seulement des quantit\303\251s num\303\251riques (enti\303\250res, r\303\251elles, complexes) mais aussi des polyn\303\264mes, des fonctions, des s\303\251ries,... et d'effectuer des op\303\251rations courantes, d\303\251rivation et int\303\251gration formelle, limites, simplifications,...</Font>
+
+<Font encoding="UTF-8">De plus Maple permet aussi de faire les calculs num\303\251riques classiques, solution d'\303\251quations ou de syst\303\250mes, r\303\251solution d'\303\251quations diff\303\251rentielles,... Des capacit\303\251s graphiques \303\251volu\303\251es permettent aussi de faire des repr\303\251sentations graphiques ainsi que d'aborder une partie des questions de g\303\251om\303\251trie plane ou dans l'espace.</Font>
+</Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Une feuille de travail (worksheet) Maple se compose de texte, d'\303\251quations et de lignes de commande Maple comme la suivante:</Font></Text-field>
+<Group labelreference="L796" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">4+5</Text-field>
+</Input>
+</Group><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Vous pouvez \303\251valuer une telle commande en y pla\303\247ant le curseur et en tapant &lt;Enter&gt;. Les commandes ne sont pas \303\251valu\303\251es automatiquement lors de l'ouverture de la feuille de travail. Vous pouvez \303\251valuer toutes les commandes de la feuille en tapant &lt;Ctrl+Shift+Enter&gt;. (Ne l'essayez pas sur la feuille pr\303\251sente, \303\247a risque de prendre du temps.)</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Guide (A LIRE ATTENTIVEMENT!)</Text-field></Title><Text-field style="Text" layout="Normal">Voici un petit guide pour vos premiers pas dans Maple:</Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Lisez attentivement l'onglet &quot;R\303\251daction&quot; ci-dessous.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Lisez les Sections 1, 2 et 3, en exp\303\251rimentant </Font>sur une autre feuille de travail <Font encoding="UTF-8">les commandes pr\303\251sent\303\251es.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Commencez \303\240 r\303\251soudre les exercices (Section 7), en vous r\303\251f\303\251rant au autres sections ci-dessous lorsque n\303\251cessaire.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Comme pour Matlab, 1 exercice = 1 feuille de travail. Ne r\303\251solvez pas les exercices sur cette feuille de travail.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Utilisez la possibilit\303\251 d'\303\251crire du texte dans la feuille de travail pour expliquer EN DETAIL vos raisonnements et votre code. Pas de commentaires = 0 point.</Font></Text-field>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">R\303\251daction</Font></Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour r\303\251diger un fichier Maple comme celui ci, utilisez la barre se trouvant juste au dessus de la fen\303\252tre dans laquelle vous lisez ce texte. Vous y trouvez des options pour formatter le texte. </Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour \303\251crire des \303\251quations, cliquez sur le bouton &quot;Math&quot;: </Font><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JVEiMkYnRjJGNUYyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LlEifkYnRjJGNS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRy8lKXN0cmV0Y2h5R0ZHLyUqc3ltbWV0cmljR0ZHLyUobGFyZ2VvcEdGRy8lLm1vdmFibGVsaW1pdHNHRkcvJSdhY2NlbnRHRkcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZCNi5RIitGJ0YyRjVGRUZIRkpGTEZORlBGUi9GVVEsMC4yMjIyMjIyZW1GJy9GWEZnbkZBLUYsNiUtRi82JVEieUYnRjJGNUY4Rj5GQS1GQjYuUSI9RidGMkY1RkVGSEZKRkxGTkZQRlIvRlVRLDAuMjc3Nzc3OGVtRicvRlhGYm9GQS1GLDYlLUYvNiVRInpGJ0YyRjVGOEY+LUZCNi1RIi5GJy9GNlEnbm9ybWFsRidGRUZIRkpGTEZORlBGUkZURlcvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRlxw">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JVEiMkYnRjJGNUYyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LlEifkYnRjJGNS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRy8lKXN0cmV0Y2h5R0ZHLyUqc3ltbWV0cmljR0ZHLyUobGFyZ2VvcEdGRy8lLm1vdmFibGVsaW1pdHNHRkcvJSdhY2NlbnRHRkcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZCNi5RIitGJ0YyRjVGRUZIRkpGTEZORlBGUi9GVVEsMC4yMjIyMjIyZW1GJy9GWEZnbkZBLUYsNiUtRi82JVEieUYnRjJGNUY4Rj5GQS1GQjYuUSI9RidGMkY1RkVGSEZKRkxGTkZQRlIvRlVRLDAuMjc3Nzc3OGVtRicvRlhGYm9GQS1GLDYlLUYvNiVRInpGJ0YyRjVGOEY+LUZCNi1RIi5GJy9GNlEnbm9ybWFsRidGRUZIRkpGTEZORlBGUkZURlcvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRlxw</Equation> Cliquez sur le bouton &quot;Texte&quot; pour revenir au mode texte. </Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour entrer une commande Maple, cliquez sur l'onglet &quot;Insertion&quot; dans le menu de la fen\303\252tre principale et choisissez &quot;Entr\303\251e Maple&quot;, ou plus simplement, tapez &lt;Ctrl+M&gt;:</Font></Text-field>
+<Group labelreference="L797" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x := 3</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Les entr\303\251es Maple peuvent \303\252tre \303\251valu\303\251es en y pla\303\247ant le curseur et en tapant &lt;Enter&gt;. Tapez &lt;Ctrl+Z&gt; pour annuler l'\303\251valuation. Pour supprimer une entr\303\251e Maple, placez-y le curseur et tapez &lt;Ctrl+Delete&gt;. Pour \303\251crire une entr\303\251e Maple sur plusieurs lignes sans l'\303\251valuer, utilisez &lt;Shift+Enter&gt;.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font bold="true">IMPORTANT</Font><Font encoding="UTF-8">: Si vous avez entr\303\251 une commande Maple par erreur en mode texte ou math, elle ne peut pas \303\252tre ex\303\251cut\303\251e:</Font></Text-field><Text-field style="Normal" layout="Normal"><Equation executable="true" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW5HRiQ2JVEiM0YnLyUrZXhlY3V0YWJsZUdRJXRydWVGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGL0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y7LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRjsvJShsYXJnZW9wR0Y7LyUubW92YWJsZWxpbWl0c0dGOy8lJ2FjY2VudEdGOy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkotRjY2LlEiK0YnRi9GMkY5RjxGPkZARkJGREZGL0ZJUSwwLjIyMjIyMjJlbUYnL0ZMRlEtRiw2JVEiNEYnRi9GMi8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW5HRiQ2JVEiM0YnLyUrZXhlY3V0YWJsZUdRJXRydWVGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGL0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y7LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRjsvJShsYXJnZW9wR0Y7LyUubW92YWJsZWxpbWl0c0dGOy8lJ2FjY2VudEdGOy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkotRjY2LlEiK0YnRi9GMkY5RjxGPkZARkJGREZGL0ZJUSwwLjIyMjIyMjJlbUYnL0ZMRlEtRiw2JVEiNEYnRi9GMi8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGL0Yy</Equation></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Dans ce cas, cr\303\251ez une ligne &quot;Entr\303\251e Maple&quot; (Maple input, &lt;Ctrl+M&gt;), et collez votre commande dedans pour pouvoir l'ex\303\251cuter:</Font></Text-field>
+<Group labelreference="L814" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">3+4</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour cr\303\251er des sections d\303\251roulantes comme dans ce fichier, utilisez l'ic\303\264ne d'indentation dans le menu de la fen\303\252tre principale, ou &lt;Ctrl+.&gt; (point). Pour les supprimer, utilisez &lt;Ctrl+Delete&gt; comme pour les entr\303\251es Maple.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Toutes les actions peuvent \303\252tre annul\303\251es avec &lt;Ctrl+Z&gt;.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Comme pour Matlab, vous devez r\303\251diger un fichier Maple par exercice. Expliquez votre code et les commandes que vous utilisez au moyen de texte.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour la pr\303\251sentation, inspirez-vous de l'exemple d'exercice r\303\251solu sur moodle. D'une mani\303\250re g\303\251n\303\251rale, assurez-vous que vos solutions soient ais\303\251ment lisibles et compr\303\251hensibles.</Font></Text-field>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">1. Bases</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Assignement de valeurs et \303\251galit\303\251</Font></Text-field></Title>
+<Group labelreference="L5" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">L'assignation de valeurs aux variables se fait avec le symbole <Font style="Maple Input" executable="false">:=</Font><Font encoding="UTF-8">, comme en Pascal. En principe, toutes les commandes se terminent par un point virgule, mais dans les versions r\303\251centes, on peut omettre celui-ci. On peut toutefois l'utiliser pour \303\251crire plusieurs commandes sur la m\303\252me ligne (pas recommand\303\251 pour des raisons de lisibilit\303\251). Si on veut supprimer l'impression du r\303\251sultat, on termine la commande par deux points \303\240 la place du point virgule :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L480" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x:=2:y:=x^2;y+x;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L482" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Le symbole &quot;=&quot; est utilis\303\251 pour exprimer une \303\251quation; la commande &quot;solve(&quot;equation&quot;)&quot; retourne la liste des solutions :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L475" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(z^2=2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L477" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si on a oublie que l'on a assign\303\251 la valeur 2 \303\240 </Font><Font style="Maple Input" executable="false">x</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L476" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2=2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L483" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">on n'obtient aucune solution! Evidemment, puisque <Font style="Maple Input" executable="false">x</Font><Font encoding="UTF-8"> vaut 2 et qu'il n'y a pas de solution \303\240 l'equation </Font><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiMkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlRi4vJSdpdGFsaWNHUSV0cnVlRicvRjNRJ2l0YWxpY0YnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZFLyUpc3RyZXRjaHlHRkUvJSpzeW1tZXRyaWNHRkUvJShsYXJnZW9wR0ZFLyUubW92YWJsZWxpbWl0c0dGRS8lJ2FjY2VudEdGRS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlQtRkA2LVEiPUYnRjJGQ0ZGRkhGSkZMRk5GUC9GU1EsMC4yNzc3Nzc4ZW1GJy9GVkZlbkY/Ri4vJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiMkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYlRi4vJSdpdGFsaWNHUSV0cnVlRicvRjNRJ2l0YWxpY0YnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1JI21vR0YkNi1RIn5GJ0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZFLyUpc3RyZXRjaHlHRkUvJSpzeW1tZXRyaWNHRkUvJShsYXJnZW9wR0ZFLyUubW92YWJsZWxpbWl0c0dGRS8lJ2FjY2VudEdGRS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlQtRkA2LVEiPUYnRjJGQ0ZGRkhGSkZMRk5GUC9GU1EsMC4yNzc3Nzc4ZW1GJy9GVkZlbkY/Ri4vJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRjI=</Equation>.</Text-field><Text-field style="Normal" layout="Normal">Si on veut de nouveau utiliser <Font style="Maple Input" executable="false">x</Font> comme variable, il faut lui assigner la valeur symbolique <Font style="Maple Input" executable="false">'x'</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L481" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x:='x';</Text-field>
+</Input>
+</Group>
+<Group labelreference="L479" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2=2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L478" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">De m\303\252me, si on \303\251crit :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L486" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(1=2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L487" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">on n'obtient rien en retour. On peut m\303\252me \303\251crire :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L484" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">z:=x^2=2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L485" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">et <Font style="Maple Input" executable="false">z</Font> a pour valeur l'expression <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMkYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkkvJSlzdHJldGNoeUdGSS8lKnN5bW1ldHJpY0dGSS8lKGxhcmdlb3BHRkkvJS5tb3ZhYmxlbGltaXRzR0ZJLyUnYWNjZW50R0ZJLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGWC1GRDYtUSI9RidGPkZHRkpGTEZORlBGUkZUL0ZXUSwwLjI3Nzc3NzhlbUYnL0ZaRmluRkNGOi8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGPg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1cEdGJDYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYlLUkjbW5HRiQ2JFEiMkYnL0Y2USdub3JtYWxGJ0YyRjUvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LVEifkYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkkvJSlzdHJldGNoeUdGSS8lKnN5bW1ldHJpY0dGSS8lKGxhcmdlb3BHRkkvJS5tb3ZhYmxlbGltaXRzR0ZJLyUnYWNjZW50R0ZJLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGWC1GRDYtUSI9RidGPkZHRkpGTEZORlBGUkZUL0ZXUSwwLjI3Nzc3NzhlbUYnL0ZaRmluRkNGOi8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGPg==</Equation><Font encoding="UTF-8">. On peut donc \303\251crire :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L488" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(z);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L473" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Si l'on pose</Text-field>
+</Input>
+</Group>
+<Group labelreference="L474" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">z:=x=2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L470" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">on aura assign\303\251 \303\240 </Font><Font style="Maple Input" executable="false">z</Font><Font encoding="UTF-8"> une expression bool\303\251enne, dont on peut conna\303\256tre la valeur par la commande </Font><Font style="Maple Input" executable="false">evalb</Font><Font encoding="UTF-8"> (\303\251valuation bool\303\251enne) :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L471" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x:=1:evalb(z);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L472" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x:=2:evalb(z);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Aide</Text-field></Title>
+<Group labelreference="L25" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple propose un syst\303\250me d'aide tr\303\250s complet et qui fournit beaucoup d'exemples. Si on veut de l'aide sur une commande ou une proc\303\251dure, taper </Font><Font style="Maple Input" executable="false">?&quot;nom&quot;</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">?+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">ou encore</Text-field>
+</Input>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">?plot</Text-field>
+</Input>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On peut aussi \303\251crire :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">help(plot)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Enfin, on peut utiliser l'aide \303\240 partir de la barre de menu de Maple, par mot-cl\303\251 ou par sujet. Essayez aussi la commande :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">help(help)</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Recommencer</Text-field></Title>
+<Group labelreference="L39" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple vous offre la possibilit\303\251 de repartir \303\240 zero, mais pas tout-\303\240-fait; la commande </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">efface les valeurs assign\303\251es aux variables et les \303\251ventuelles librairies charg\303\251es en m\303\251moire (par exemple avec la commande </Font><Font style="Maple Input" executable="false">with(plots)</Font><Font encoding="UTF-8">, utilis\303\251e au dernier paragraphe). Ainsi : </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">a;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L43" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">La variable &quot;a&quot; n'a plus qu'une valeur symbolique.</Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Cependant, cette commande ne remet pas \303\240 disposition la totalit\303\251 de la m\303\251moire utilis\303\251e jusque-l\303\240. Si le comportement de Maple est bizarre, il faut repartir \303\240 z\303\251ro en quittant l'application (apr\303\250s avoir sauv\303\251 votre feuille de travail), et la relancer ensuite.</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">2. Calculs avec les nombres</Text-field></Title>
+<Group labelreference="L44" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">2+2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">2*4;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L46" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Le signe % rappelle le dernier r\303\251sultat obtenu :</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L47" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">%+2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L48" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Le circonflexe pr\303\251c\303\250de un exposant :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L49" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">3^2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L50" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">2^(3+2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L51" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Les fractions sont repr\303\251sent\303\251es sous forme exacte :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L52" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">9/7;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L53" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si on veut le r\303\251sultat sous forme de nombre d\303\251cimal, il faut utiliser la fonction </Font><Font style="Maple Input" executable="false">evalf</Font><Font encoding="UTF-8"> (&quot;f&quot; pour &quot;float&quot;, i.e. nombre r\303\251el \303\240 virgule flottante) :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L54" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L55" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">et si on veut plus de d\303\251cimales :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L56" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(9/7,20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L57" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On peut forcer les nombres entiers \303\240 \303\252tre trait\303\251s come des &quot;float&quot; en \303\251crivant un 0 apr\303\250s la virgule (qui est un point dans Maple) :</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L58" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">2.0/3;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L59" drawlabel="true">
+<Input><Text-field style="Maple Output257" layout="Maple Output257"><Font encoding="UTF-8">Racine carr\303\251e se dit &quot;square root&quot; en anglais :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L60" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sqrt(2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L61" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L62" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sqrt(2.0);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L63" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">On remarque ci-dessus que <Font style="Maple Input" executable="false">sqrt(2)</Font><Font encoding="UTF-8"> est conserv\303\251 sous forme symbolique par Maple; par contre, si on \303\251crit </Font><Font style="Maple Input" executable="false">sqrt(2.0)</Font>  le <Font style="Maple Input" executable="false">2.0</Font><Font encoding="UTF-8"> force Maple \303\240 travailler avec des repr\303\251sentation d\303\251cimales approch\303\251es de nombres r\303\251els. L'int\303\251r\303\252t de la forme symbolique est que le symbole </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbXNxcnRHRiQ2Iy1JI21uR0YkNiVRIjJGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi5RIn5GJ0YyRjUvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMRjJGNQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbXNxcnRHRiQ2Iy1JI21uR0YkNiVRIjJGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi5RIn5GJ0YyRjUvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMRjJGNQ==</Equation><Font encoding="UTF-8">est compris comme le nombre r\303\251el (positif) dont le carr\303\251 vaut 2. Si on veut d'autres racines (cubique, </Font><Font italic="true">n</Font><Font encoding="UTF-8">i\303\250me), on utilise l'\303\251criture exponentielle ou la fonction </Font><Font style="Maple Input" executable="false">root</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L64" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">2^(1/3);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L65" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L66" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Certains nombres sont pr\303\251definis, comme le nombre </Font><Font style="Maple Input" executable="false">Pi</Font><Font encoding="UTF-8">, qui est la moiti\303\251 de la circonf\303\251rence du cercle de rayon 1 :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L67" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Pi;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L68" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(Pi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L69" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(Pi,20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L70" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">ou le nombre d'Euler <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiZUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiZUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn</Equation><Font encoding="UTF-8">, qui n'a pas de nom particulier dans Maple (contrairement \303\240 \317\200) :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L71" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">exp(1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L72" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(%,30);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L73" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple est sensible aux majuscules-minuscules. Mais Maple n'est pas contrariant; si vous \303\251crivez :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L74" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pi;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L75" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(pi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L76" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Pi := 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L77" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pi := 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L78" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Maple pense que <Font style="Maple Input" executable="false">pi</Font> est une nouvelle variable.</Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L79" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour assigner un nombre \303\240 une variable </Font><Font style="Maple Input" executable="false">x</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L80" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x := sqrt(2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L81" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">x^2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L82" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">y := sqrt(2.0);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L83" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">y^2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L84" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Cet exemple montre l'int\303\251r\303\252t \303\240 travailler avec les expressions exactes.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L85" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">La d\303\251composition en produit de facteurs premiers s'effectue au moyen de la commande </Font><Font style="Maple Input" executable="false">ifactor</Font><Font encoding="UTF-8"> (= &quot;integer factorisation&quot;). Attention, il existe des algoritmes plus efficaces que de trouver sa d\303\251composition en facteur premier pour d\303\251terminer si un nombre est premier ou non. C'est pourquoi si vous devez savoir si un nombre est premier sans n\303\251cessairement conna\303\256tre sa d\303\251composition il faut utiliser la commande </Font><Font style="Maple Input" executable="false">isprime</Font>.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L87" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ifactor(2011);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L88" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">isprime(2011);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L89" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">isprime(1899998676^5+125099^6);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L90" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ifactor(1899998676^5+125099^6);</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">3. Expressions symboliques, fonctions, \303\251quations</Font></Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Expressions symboliques</Text-field></Title><Text-field style="Normal" layout="Normal">On commence par nettoyer:</Text-field>
+<Group labelreference="L573" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L572" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">r := (a + b)^2;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L575" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">er := expand(%);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L574" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">r - er;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L569" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(r - er);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L568" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">L'exemple ci-dessus montre \303\240 quel point Maple respecte la volont\303\251 de l'utilisateur: les expressions ne sont simplifi\303\251es que sur demande. </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L571" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">s:=(a^2 -b^2)/(a + b);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L570" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(s);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L567" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple consid\303\250re </Font><Font style="Maple Input" executable="false">r</Font> et <Font style="Maple Input" executable="false">s</Font> comme des expressions en les variables symboliques <Font style="Maple Input" executable="false">a</Font> et <Font style="Maple Input" executable="false">b</Font>. Pour substituer les symboles par des valeurs on utilise la fonction <Font style="Maple Input" executable="false">subs</Font> : </Text-field>
+</Input>
+</Group>
+<Group labelreference="L563" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(a = 1,r);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L799" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(a = 2,b = 1,r);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L562" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8" executable="true">Maple sait factoriser des polyn\303\264mes, au moyen de la commande </Font><Font style="Maple Input">factor</Font><Font executable="true"> :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L561" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">factor(x^3 - y^3);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L566" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">et m\303\252me des quotients de polyn\303\264mes :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L565" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">factor((x^4 - y^4)/(x^3 + y^3));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L564" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Dans ce cas Maple a pris l'initiative de simplifier l'expression.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Fonctions</Text-field></Title>
+<Group labelreference="L581" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On d\303\251finit une fonction comme suit, au moyen du symbole :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L580" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f := x -&gt; x^2 - 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L579" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L578" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g := (x,y) -&gt; x^2 + y^2 - 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L577" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g(2,1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L576" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g(1,0);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Difference entre expressions et fonctions</Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Une expression est li\303\251e aux symboles utilis\303\251s dans sa d\303\251finition; dans une fonction, au contraire, le nom du symbole repr\303\251sentant la variable peut \303\252tre modifi\303\251 :</Font></Text-field>
+<Group labelreference="L583" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(u);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L582" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">h := (x,y) -&gt; x^2 - y^3 + 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L585" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">h(y,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L584" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">h(u,v);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L587" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">E := x^2 - 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L586" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(x = 1,E);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L588" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(u = 1,E);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Equations</Text-field></Title><Text-field style="_cstyle280" layout="Heading 3"><Font encoding="UTF-8">Pour r\303\251soudre une \303\251quation :</Font></Text-field>
+<Group labelreference="L619" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2 - 1 = 0,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L589" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2 + y^2 - 1 = 0,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L596" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve({x^2 + y^2 - 1 = 0,x = y},{x,y});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L594" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">et si on veut tout savoir :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L592" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">allvalues(solve({x^2 + y^2 - 1 = 0,x = y},{x,y}));</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal">On peut aussi utiliser d'autres formes :</Text-field>
+<Group labelreference="L591" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2 + x - 1,x);</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal">ce qui montre que le signe <Font style="Maple Input" executable="false">= 0</Font> est facultatif; ou encore :</Text-field>
+<Group labelreference="L603" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2 + x = 1,x);</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Les solutions peuvent \303\252tre imaginaires :</Font></Text-field>
+<Group labelreference="L601" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(x^2 + x + 1,x);</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal">ou <Font style="Maple Input" executable="false">I</Font> est la racine de -1:</Text-field>
+<Group labelreference="L600" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">I*I;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L598" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Il est donc interdit d'utiliser <Font style="Maple Input" executable="false">I</Font> comme nom de variable:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L607" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">I := 1;</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Les solutions sont donn\303\251es sous forme de liste. Voici comment acc\303\251der individuellement aux solutions :</Font></Text-field>
+<Group labelreference="L620" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">equat := x^2 - x + 1; sols := solve(equat,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L621" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">a := sols[1];</Text-field>
+</Input>
+</Group>
+<Group labelreference="L614" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(x = a,equat);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L617" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Maple est minimaliste : il ne d\303\251veloppe pas les expressions plus que n\303\251cessaire. Pour voir si notre </Font><Font style="Maple Input" executable="false">a</Font> est vraiment solution, il faut faire ainsi:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L618" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(subs(x = a,equat));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L609" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">expand(subs(x = sols[2],equat));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L610" drawlabel="true">
+<Input><Text-field style="Maple Output257" layout="Maple Output257"><Font style="Maple Input" executable="false">fsolve</Font><Font style="Text" encoding="UTF-8"> r\303\251soud les \303\251quations num\303\251riquement</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L611" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">fsolve({x^2 + y^2 - 1 = 0,x = y},{x,y});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L612" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(exp(x) = 2,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L608" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">fsolve(exp(x) = 2,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L605" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Contr\303\264lons:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L606" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(ln(2),20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L602" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Lorsqu'on a deux \303\251quations \303\240 deux inconnues, les solutions sont donn\303\251es sous la forme de liste d'expression de la forme </Font><Font style="Maple Input" executable="false">x = ...,y = ...</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L604" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sols := allvalues(solve({x^2 + y - 1 = 0,x = y},{x,y}));</Text-field>
+</Input>
+</Group>
+<Group labelreference="L597" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Voici comment acc\303\251der aux solutions. La commande </Font><Font style="Maple Input" executable="false">op</Font><Font encoding="UTF-8"> donne acc\303\250s aux &quot;op\303\251rants&quot;, ou composantes d'une expression:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L805" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sols[1]; </Text-field>
+</Input>
+</Group>
+<Group labelreference="L599" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">op(sols[1]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L807" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">op(sols[1])[1]; </Text-field>
+</Input>
+</Group>
+<Group labelreference="L593" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">op(sols[1])[2];</Text-field>
+</Input>
+</Group>
+<Group labelreference="L595" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(op(sols[1])[2]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L590" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">On peut aussi utiliser la commande <Font style="Maple Input" executable="false">rhs</Font> (= right hand side, ou membre de droite) :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L613" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">rhs(op(sols[1])[1]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L615" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Dans la commande <Font style="Maple Input" executable="false">fsolve</Font><Font encoding="UTF-8">, on peut pr\303\251ciser un intervalle dans lequel on veut chercher les solutions:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L616" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">fsolve(x^2 - 2, x, -2..0);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">D\303\251rivations</Font></Text-field></Title>
+<Group labelreference="L627" drawlabel="true">
+<Input>
+</Input>
+</Group>
+<Group labelreference="L630" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g := (x,y) -&gt; x^2 + y^2 - 1;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L632" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pour d\303\251river </Font><Font style="Maple Input" executable="false">g</Font><Font encoding="UTF-8"> par rapport \303\240 </Font><Font style="Maple Input" executable="false">x</Font><Font encoding="UTF-8">, on ex\303\251cute</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(g(x,y),x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L633" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On it\303\250re la d\303\251rivation en r\303\251p\303\251tant le nom des variables par rapport auxquelles on veut d\303\251river :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L636" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(g(x,y),x,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L622" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(g(x,y),x,y);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L623" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Mais on peut changer le nom des variables, si on veut :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L637" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(g(u,v),u);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L626" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On peut aussi d\303\251river une expression : </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L803" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f := x^2 + x*y^3 - x*y; </Text-field>
+</Input>
+</Group>
+<Group labelreference="L628" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(f,x,y);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L624" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(f,x,y,y);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L625" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">D'autres exemples :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L634" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(exp(x^2+y^2),x,y);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L635" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(exp(x^2+y^2),y,x);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L629" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(sin(x^2+y^2),x,y,y);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L631" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">diff(sin(x^2+y^2),y,x,y);</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">4. Graphiques</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Fonctions d'une variable</Text-field></Title><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Le graphe d'une fonction \303\240 une variable peut \303\252tre obtenu au moyen de la commande </Font><Hyperlink linktarget="Help:plot" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">plot</Font></Hyperlink>.</Text-field>
+<Group labelreference="L169" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L170" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f := x -&gt; x^3 - x;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L171" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(f(x),x = -2 .. 2);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L172" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si on veut la m\303\252me \303\251chelle sur les 2 axes :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L173" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(f(x),x = -2 .. 2, scaling = constrained);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L174" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Par d\303\251faut, 50 points sont calcul\303\251s. Si on en veut plus, et une autre couleur :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L175" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(f(x),x = -2 .. 2, numpoints = 500, color = blue);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L176" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">On peut aussi changer de style :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L177" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(f(x),x = -2 .. 2, style = point, color = green);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L178" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si on veut superposer plusieurs graphes, il suffit d'\303\251crire la liste des fonctions au lieu d'une seule fonction:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L179" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x^2,x^3,x^4],x = -1 .. 1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L180" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si le choix des couleurs ne pla\303\256t pas, on peut donner sa propre liste :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L181" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([x^2,x^3,x^4],x = -1 .. 1, color = [blue,black,brown]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L182" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On peut utiliser les coordonn\303\251es polaires :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L183" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(1,t = 0 .. 2*Pi, coords = polar);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L184" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Un autre exemple :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L185" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(cos(t/3),t = 0 .. 3*Pi, coords = polar, scaling = constrained);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L223" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Si on veut dessiner des courbes param\303\251tr\303\251es de mani\303\250re diff\303\251rentes sur un m\303\252me graphe, il est possible de faire ceci.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L224" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot({[cos(t), sin(t), t = 0 .. 2*Pi], [t^2, t^3, t = 0.4 .. 1.2]});</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Courbes param\303\251triques</Font></Text-field></Title>
+<Group labelreference="L186" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([cos(t),sin(t),t = 0 .. 2*Pi]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L187" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Les figures de Lissajous sont la composition de mouvement sinuso\303\257daux perpendiculaires l'un \303\240 l'autre. Elles ont  des param\303\251trisations de la forme </Font><Font italic="true">(a </Font>cos<Font italic="true">(kt),b </Font>sin<Font italic="true">(ht))</Font> :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L188" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot([cos(t),sin(3*t),t = 0 .. 2*Pi]);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Fonctions de deux variables.</Text-field></Title><Text-field style="Text" layout="Maple Output" alignment="left">Si vous voulez dessiner des surfaces, la fonction <Hyperlink linktarget="Help:plot3d" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">plot3d</Font></Hyperlink><Font encoding="UTF-8"> est la plus adpat\303\251e. Il est possible de faire tourner la repr\303\251sentation sur elle-m\303\252me. Essayez sur l'exemple suivant.</Font></Text-field>
+<Group labelreference="L560" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d(x*exp(-x^2 - y^2), x = -2 .. 2, y = -2 .. 2, color = x);</Text-field>
+</Input>
+</Group><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">plot3d</Font><Font style="Normal" encoding="UTF-8"> a plusieurs options int\303\251ressantes (dans l'exemple pr\303\251c\303\251dent l'option color permet de colorier la surface en fonction d'un param\303\250tre). Consultez l'aide de </Font><Font executable="true">plot3d</Font><Font style="Normal"> et essayez les exemples.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Il existe d'autres outils de dessins dans Maple, il sont regroup\303\251 dans des librairies de proc\303\251dures , les plus utiles d'entre elles sont </Font><Font style="Maple Input" executable="false">plots</Font> et <Font style="Maple Input" executable="false">plottools</Font>. On tape d'abord la commande suivante pour charger la librairie <Font style="Maple Input" executable="false">plots</Font></Text-field>
+<Group labelreference="L190" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L191" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">et on obtient comme r\303\251ponse la liste des nouvelles proc\303\251dures \303\240 notre disposition. </Font></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">La commande suivante dessine les niveaux <Font italic="true">f(x,y) = c</Font> d'une fonction <Font italic="true">f</Font>, pour <Font italic="true">x</Font> et <Font italic="true">y</Font><Font encoding="UTF-8"> variant entre les limites indiqu\303\251es. Les valeurs de </Font><Font italic="true">c</Font><Font encoding="UTF-8"> sont r\303\251parties de mani\303\250re uniforme entre les valeurs minimales et maximales de </Font><Font italic="true">f</Font>, pour <Font italic="true">x</Font> et <Font italic="true">y</Font><Font encoding="UTF-8"> dans les limites indiqu\303\251es.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L192" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(y^2 - x^3 - x^2, x = -1 .. 0.5, y = -1 .. 1);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L193" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Par d\303\251faut, Maple dessine 8 contours. Si on en veut plus, il suffit de le dire : </Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L194" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(y^2 - x^3 - x^2, x = -1.5 .. 0.5, y = -1 .. 1, contours = 20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L368" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Pour dessiner des surfaces en 3 dimensions, rien de plus facile, utilisez une param\303\251trisation de votre surface. Pour la demi-sph\303\250re:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L369" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d(sqrt(1 - (y^2 + x^2)), x = -1 .. 1, y = -1 .. 1, contours = 20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L370" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Le bord n'est pas g\303\251nial, mais si on prend une autre param\303\251trisation cela va mieux</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L371" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d([cos(x)*cos(y),sin(x)*cos(y),sin(y)], x = 0 .. 2*Pi, y = 0 .. Pi, contours = 20);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L380" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">A l'oeil, \303\247a n'a pas l'air d'une demi-sph\303\250re... Parcequ'il faut garder la m\303\252me \303\251chelle sur les axes, comme dans le cas de la commande </Font><Font style="Maple Input" executable="false">plot</Font>.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L379" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d([cos(x)*cos(y),sin(x)*cos(y),sin(y)], x = 0 .. 2*Pi, y = 0 .. Pi, scaling = constrained);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L414" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">La sph\303\250re peut aussi se dessiner compl\303\250tement.</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L422" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d([cos(x)*cos(y),sin(x)*cos(y),sin(y)], x = 0 .. 2*Pi, y = 0 .. 2*Pi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L421" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">On peut aussi dessiner plusieurs surfaces ensemble</Text-field>
+</Input>
+</Group>
+<Group labelreference="L812" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sphere := plot3d([cos(x)*cos(y),sin(x)*cos(y),sin(y)], x = 0 .. 2*Pi, y = 0 .. 2*Pi);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L810" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plan := plot3d(0.5 - x - 2*y, x = -1.5 .. 1.5, y = -1.5 .. 1.5);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L423" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">display({sphere,plan}, scaling = constrained); </Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">5. Proc\303\251dures dans Maple</Font></Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Un exemple et g\303\251n\303\251ralit\303\251s</Font></Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Voici une proc\303\251dure qui calcule la somme des nombres de 1 jusqu'\303\240 n :</Font></Text-field>
+<Group labelreference="L195" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f := proc(n)          # n est un parametre que l'on peut passer a la procedure f
+  <Font encoding="UTF-8">local i, temp;      # On d\303\251clare les variables locales de la proc\303\251dure.
+  temp := 0;          # On assigne la valeur zero \303\240 la variable temp.
+  # Une boucle, voir ci-dessous. La variable i va \303\252tre incr\303\251ment\303\251e de 1 \303\240 n, et pour chaque valeur de i, on ex\303\251cute   la commande apr\303\250s &quot;do&quot;.</Font>
+  for i from 1 to n do  
+<Font encoding="UTF-8">    temp := temp + i; # Commande r\303\251p\303\251t\303\251e pour chaque valeur de i.
+  end do;             # Indique que la boucle est termin\303\251e, indispensable!
+end proc;             # Indique que le code de la proc\303\251dure est termin\303\251, indispensable!</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L196" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">f(1);                 # On teste notre proc\303\251dure</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L197" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f(10);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L198" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On introduit une proc\303\251dure au moyen de la commande </Font><Hyperlink linktarget="Help:proc" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">proc</Font></Hyperlink><Font encoding="UTF-8">, suivie des arguments entre parenth\303\250ses, s\303\251par\303\251s par des virgules. Notez l'utilisation du point virgule. Pas de point virgule apr\303\250s la commande </Font><Hyperlink linktarget="Help:proc" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">proc</Font></Hyperlink><Font encoding="UTF-8">. Mais chaque ligne de la proc\303\251dure se termine par un point virgule.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Il n'est pas n\303\251cessaire de mentionner quelle est la valeur retourn\303\251e par la proc\303\251dure. Celle-ci retourne par d\303\251faut le dernier calcul effectu\303\251. Dans le cas ci-dessus, c'est la derni\303\250re valeur prise par la variable </Font><Font style="Maple Input" executable="false">temp</Font><Font encoding="UTF-8">. Il est aussi possible de mentionner explicitement quelles variables doivent \303\252tre retourn\303\251es, au moyen de la commande </Font><Font style="Maple Input" executable="false">return</Font><Font style="Text">.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">On termine la proc\303\251dure par la commande </Font><Font style="Maple Input" executable="false">end proc;</Font>, qui est indispensable.</Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Attention : on n'a pas le droit de modifier les param\303\250tres pass\303\251s \303\240 la proc\303\251dure :</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L640" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">double := proc(n)  # calcule 2 fois n
+  local temp;
+  temp := n;
+  n := 2*temp;
+end proc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L638" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">double(3);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L639" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Par contre:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L641" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">redouble:=proc(n)
+  local temp;
+  temp:=n;
+  2*temp;
+end proc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L642" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">redouble(3);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Boucles </Text-field></Title>
+<Group labelreference="L204" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal">Pour effectuer une commande plusieurs fois, on utilise une boucle, dont on a vu une utilisation dans l'exemple ci-dessus, avec la commande <Hyperlink linktarget="Help:for" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">for</Font></Hyperlink>. Celle-ci s'utilise comme suit</Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font encoding="UTF-8" executable="false">for [Variable] from [Valeur de d\303\251part de la variable] to [Valeur finale de la variable] do [Commandes \303\240 ex\303\251cuter]</Font></Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">end do;</Font></Text-field><Text-field style="Normal" layout="Normal">Notez la commande <Font style="Maple Input" executable="false">end do;</Font>, qui est indispensable.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">If ... then ... </Text-field></Title>
+<Group labelreference="L652" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Quand on veut ex\303\251cuter une commande seulement si une certaine condition est respect\303\251e, on utilise la commande </Font><Hyperlink linktarget="Help:if" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">if</Font></Hyperlink> ... <Hyperlink linktarget="Help:then" hyperlink="true"><Font underline="false" background="[0,0,0]" style="Hyperlink" bold="true" foreground="[255,0,0]" family="Monospaced">then</Font></Hyperlink> ..., qui s'utilise comme suit:</Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font encoding="UTF-8" executable="false">if [Condition] then [Commande \303\240 ex\303\251cuter si la condition est vraie] </Font></Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font encoding="UTF-8" executable="false">elif [Condition 2] then [Condition \303\240 ex\303\251cuter si la premi\303\250re condition est fausse et la deuxi\303\250me est vraie]</Font></Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font encoding="UTF-8" executable="false">else [Commande \303\240 ex\303\251cuter si toutes les conditions sont fausses];</Font></Text-field><Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">end if;</Font></Text-field><Text-field style="Normal" layout="Normal">Notez la commande <Font style="Maple Input" executable="false">end if;</Font>, qui est indispensable. Les parties introduites avec <Font style="Maple Input" executable="false">elif</Font> et avec <Font style="Maple Input" executable="false">else</Font><Font encoding="UTF-8"> ne sont pas n\303\251cessaires pour que la commande fonctionne.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal">Les operateurs logiques <Font style="Maple Input" executable="false">and</Font> et <Font style="Maple Input" executable="false">or</Font> sont souvent utiles pour formuler les conditions.</Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Voici un exemple \303\240 comprendre et \303\240 tester utilisant une commande </Font><Font style="Maple Input" executable="false">if</Font> ... <Font style="Maple Input" executable="false">then</Font> ... :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L648" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g:=proc(start,n_pas)
+local i,temp;
+temp:=start;
+for i from 1 to n_pas do
+  if (temp mod 2)=1 
+    then temp:=3*temp+1;
+    else temp:=temp/2;
+  end if;
+print(temp);
+end do;
+end proc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L649" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g(5,10);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L650" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g(10,10);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L651" drawlabel="true">
+<Input><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">(On constate exp\303\251rimentalement que, quel que soit l'entier </Font><Font style="Maple Input" executable="false">start</Font><Font encoding="UTF-8">, apr\303\250s un nombre de pas suffisamment grand on tombe sur la suite 4,2,1. On ne sait pas si c'est toujours vrai.)</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">6. D\303\251veloppements de Taylor</Font></Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="_cstyle303" layout="Heading 3"><Font bold="true">A une variable</Font></Text-field></Title><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="_cstyle296" layout="Heading 3"><Font encoding="UTF-8">Pour avoir les 5  premiers termes du d\303\251veloppement de Taylor d'une fonction d'une variable en x=0, <Font style="Normal">on \303\251crit :</Font></Font></Text-field>
+<Group labelreference="L209" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">taylor(exp(x), x);</Text-field>
+</Input>
+</Group><Text-field style="Normal" layout="Normal">Mais on peut aussi en demander plus, et en un autre point :</Text-field>
+<Group labelreference="L210" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">taylor(exp(x), x = 1, 8);</Text-field>
+</Input>
+</Group><Text-field style="ParagraphStyle1" layout="Heading 3"><Font style="_cstyle305" encoding="UTF-8">La fonction dont on cherche le d\303\251veloppement doit \303\252tre pass\303\251e en param\303\252tre </Font><Font style="_cstyle308" bold="true">sous forme d'expression</Font><Font style="_cstyle309" encoding="UTF-8">. Le dernier param\303\252tre (ci-dessus \303\251gal a 8) est le nombre de termes calcul\303\251s, en commencant par le terme constant, c'est donc 1 de moins que l'ordre du d\303\251veloppement. </Font><Font style="_cstyle307" encoding="UTF-8">Pour en faire un vrai polyn\303\264me, il faut le convertir :</Font></Text-field>
+<Group labelreference="L211" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t3 := convert(taylor(exp(x), x = 1, 3), polynom);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L212" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">subs(x = 0.5,t3);</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">7. Exercices</Text-field></Title>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Exercice 1. R\303\251solution d'une \303\251quation</Font></Text-field></Title><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">R\303\251solvez l'\303\251quation </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbW5HRiQ2JVEiNEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEifkYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkktSSVtc3VwR0YkNiUtSSNtaUdGJDYmUSJ4RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRictRiM2Ji1GLDYlUSIzRidGL0YyRlNGL0ZWLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYuUSgmbWludXM7RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGXm8tRiw2JVEiMkYnRi9GMkY1Rk9Gam4tRiw2JVEiMUYnRi9GMi1GNjYuUSI9RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjc3Nzc3OGVtRicvRktGam8tRiw2JVEjMC5GJ0YvRjJGL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbW5HRiQ2JVEiNEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEifkYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkktSSVtc3VwR0YkNiUtSSNtaUdGJDYmUSJ4RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRictRiM2Ji1GLDYlUSIzRidGL0YyRlNGL0ZWLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GNjYuUSgmbWludXM7RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGXm8tRiw2JVEiMkYnRi9GMkY1Rk9Gam4tRiw2JVEiMUYnRi9GMi1GNjYuUSI9RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjc3Nzc3OGVtRicvRktGam8tRiw2JVEjMC5GJ0YvRjJGL0Yy</Equation></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Remplacez les solutions trouv\303\251es dans l'\303\251quation pour les v\303\251rifier.</Font></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Exercice 2. D\303\251rivation</Font></Text-field></Title><Text-field style="Text" bold="true" layout="Normal"><Font bold="false">Soit </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiktRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RkAtRiw2JlEiekYnRi9GMkY1RjJGREYyRkQtRkE2LlEifkYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSRlQvRlhGVi1GQTYuUSI9RidGMkZERkZGXW9GSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRmNvRmpuLUYsNiZRJGV4cEYnL0YwRjRGMkZELUY5NiUtRiM2Ky1JI21uR0YkNiVRIjJGJ0YyRkRGam4tSSVtc3VwR0YkNiVGPS1GIzYmRl1wRi9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQTYuUSgmbWludXM7RidGMkZERkZGXW9GSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRl1xLUZecDYlUSIzRidGMkZERmpuRlpGMkZERjJGRC1GLDYmUSRjb3NGJ0Zob0YyRkQtRjk2JS1GIzYnRl9xRmpuRmduRjJGREYyRkRGMkZE">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiktRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RkAtRiw2JlEiekYnRi9GMkY1RjJGREYyRkQtRkE2LlEifkYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSRlQvRlhGVi1GQTYuUSI9RidGMkZERkZGXW9GSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRmNvRmpuLUYsNiZRJGV4cEYnL0YwRjRGMkZELUY5NiUtRiM2Ky1JI21uR0YkNiVRIjJGJ0YyRkRGam4tSSVtc3VwR0YkNiVGPS1GIzYmRl1wRi9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQTYuUSgmbWludXM7RidGMkZERkZGXW9GSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRl1xLUZecDYlUSIzRidGMkZERmpuRlpGMkZERjJGRC1GLDYmUSRjb3NGJ0Zob0YyRkQtRjk2JS1GIzYnRl9xRmpuRmduRjJGREYyRkRGMkZE</Equation></Text-field><Text-field style="Text" bold="true" layout="Normal"></Text-field><Text-field style="Text" bold="true" layout="Normal"><Font bold="false" encoding="UTF-8">Calculez toutes les d\303\251riv\303\251es d'ordre 2 et v\303\251rifiez l'ind\303\251pendance de l'ordre de d\303\251rivation pour les d\303\251riv\303\251es mixtes.</Font></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 3. Factorisation</Text-field></Title><Text-field style="Text" layout="Heading 1"><Font encoding="UTF-8">On d\303\251finit les polyn\303\264mes</Font></Text-field><Text-field style="Text" layout="Heading 1"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2KFEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrYmFja2dyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2Jy1GIzYoLUYsNihRInhGJ0YvRjJGNUY4RjsvJStmb3JlZ3JvdW5kR1EqWzAsMCwyNTVdRidGMkY1L0Y5USoyRH5PdXRwdXRGJy9GPFEnbm9ybWFsRidGMkY1RjhGSy1JI21vR0YkNjBRIn5GJ0YyRjVGOEZLLyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGW28tRk42MFEiPUYnRjJGNUY4RktGUUZTRlVGV0ZZRmVuRmduL0ZqblEsMC4yNzc3Nzc4ZW1GJy9GXW9GYm9GTS1JJW1zdXBHRiQ2JUZDLUkjbW5HRiQ2JVEiNUYnRjVGSy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRk42LlEoJm1pbnVzO0YnRjVGS0ZRRlNGVUZXRllGZW5GZ24vRmpuUSwwLjIyMjIyMjJlbUYnL0Zdb0ZicC1GaG82JVEjMjBGJ0Y1RkstRk42LlExJkludmlzaWJsZVRpbWVzO0YnRjVGS0ZRRlNGVUZXRllGZW5GZ25GaW5GXG8tRmVvNiUtRiw2JkZFRi9GNUY7LUZobzYlUSIzRidGNUZLRltwLUZONi5RIitGJ0Y1RktGUUZTRlVGV0ZZRmVuRmduRmFwRmNwLUZobzYlUSM2NEYnRjVGS0ZncEZccUZGRjJGNUZJRks=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2KFEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrYmFja2dyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2Jy1GIzYoLUYsNihRInhGJ0YvRjJGNUY4RjsvJStmb3JlZ3JvdW5kR1EqWzAsMCwyNTVdRidGMkY1L0Y5USoyRH5PdXRwdXRGJy9GPFEnbm9ybWFsRidGMkY1RjhGSy1JI21vR0YkNjBRIn5GJ0YyRjVGOEZLLyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGW28tRk42MFEiPUYnRjJGNUY4RktGUUZTRlVGV0ZZRmVuRmduL0ZqblEsMC4yNzc3Nzc4ZW1GJy9GXW9GYm9GTS1JJW1zdXBHRiQ2JUZDLUkjbW5HRiQ2JVEiNUYnRjVGSy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRk42LlEoJm1pbnVzO0YnRjVGS0ZRRlNGVUZXRllGZW5GZ24vRmpuUSwwLjIyMjIyMjJlbUYnL0Zdb0ZicC1GaG82JVEjMjBGJ0Y1RkstRk42LlExJkludmlzaWJsZVRpbWVzO0YnRjVGS0ZRRlNGVUZXRllGZW5GZ25GaW5GXG8tRmVvNiUtRiw2JkZFRi9GNUY7LUZobzYlUSIzRidGNUZLRltwLUZONi5RIitGJ0Y1RktGUUZTRlVGV0ZZRmVuRmduRmFwRmNwLUZobzYlUSM2NEYnRjVGS0ZncEZccUZGRjJGNUZJRks=</Equation> </Text-field><Text-field style="Text" layout="Heading 1"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY4LUkjbWlHRiQ2JlEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbkZCLUklbXN1cEdGJDYlRj0tSSNtbkdGJDYlUSI0RidGMkZALyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQzYuUSIrRidGMkZARkZGSEZKRkxGTkZQRlIvRlVRLDAuMjIyMjIyMmVtRicvRlhGZ28tRl1vNiVRIzEwRidGMkZALUZDNi5RMSZJbnZpc2libGVUaW1lcztGJ0YyRkBGRkZIRkpGTEZORlBGUkZURlctRmpuNiVGPS1GXW82JVEiM0YnRjJGQEZgb0Zjby1GXW82JVEjMzVGJ0YyRkBGXHAtRmpuNiVGPS1GXW82JVEiMkYnRjJGQEZgb0Zjby1GXW82JVEjNTBGJ0YyRkBGXHBGPUZjby1GXW82JVEjMjRGJ0YyRkBGMkZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY4LUkjbWlHRiQ2JlEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbkZCLUklbXN1cEdGJDYlRj0tSSNtbkdGJDYlUSI0RidGMkZALyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQzYuUSIrRidGMkZARkZGSEZKRkxGTkZQRlIvRlVRLDAuMjIyMjIyMmVtRicvRlhGZ28tRl1vNiVRIzEwRidGMkZALUZDNi5RMSZJbnZpc2libGVUaW1lcztGJ0YyRkBGRkZIRkpGTEZORlBGUkZURlctRmpuNiVGPS1GXW82JVEiM0YnRjJGQEZgb0Zjby1GXW82JVEjMzVGJ0YyRkBGXHAtRmpuNiVGPS1GXW82JVEiMkYnRjJGQEZgb0Zjby1GXW82JVEjNTBGJ0YyRkBGXHBGPUZjby1GXW82JVEjMjRGJ0YyRkBGMkZA</Equation></Text-field><Text-field style="Text" layout="Heading 1">Quel est leur plus grand diviseur commun? Simplifiez le quotient <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRImZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiZRImdGJ0YyRjVGOEYyRjVGOC8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y3RjUvRjlRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRImZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1GIzYmLUYvNiZRImdGJ0YyRjVGOEYyRjVGOC8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y3RjUvRjlRJ25vcm1hbEYn</Equation>.</Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 4. Limites</Text-field></Title><Text-field style="Text" bold="true" layout="Normal"><Font bold="false" encoding="UTF-8">Consid\303\251rons la fonction </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbi1JJW1zdXBHRiQ2JUY9LUYjNiYtSSZtZnJhY0dGJDYoRj0tRiM2KC1JI21uR0YkNiVRIjFGJ0YyRkAtRkM2LlEoJm1pbnVzO0YnRjJGQEZGRkhGSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRltwRj1GL0YyRjUvJS5saW5ldGhpY2tuZXNzR0Zmby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcC8lKWJldmVsbGVkR0Y0Ri9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQzYuUSIuRidGMkZARkZGSEZKRkxGTkZQRlJGVEZXRjJGQA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbi1JJW1zdXBHRiQ2JUY9LUYjNiYtSSZtZnJhY0dGJDYoRj0tRiM2KC1JI21uR0YkNiVRIjFGJ0YyRkAtRkM2LlEoJm1pbnVzO0YnRjJGQEZGRkhGSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRltwRj1GL0YyRjUvJS5saW5ldGhpY2tuZXNzR0Zmby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcC8lKWJldmVsbGVkR0Y0Ri9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GQzYuUSIuRidGMkZARkZGSEZKRkxGTkZQRlJGVEZXRjJGQA==</Equation></Text-field><Text-field style="Text" bold="true" layout="Normal"></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">Trouvez les valeurs singuli\303\250res de </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEiLkYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTkYyRjw=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEiLkYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTkYyRjw=</Equation></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric"><Font encoding="UTF-8">V\303\251rifiez que </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation><Font encoding="UTF-8"> est continue sur le compl\303\251ment des valeurs singuli\303\250res.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric">Calculez toutes les limites de <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation>  lorsque <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation><Font encoding="UTF-8"> s'approche d'une valeur singuli\303\250re ou de \342\210\236.</Font></Text-field><Text-field style="Text" layout="Normal" initial="-1" bulletsuffix="." bullet="numeric">Plottez <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation><Font encoding="UTF-8"> pour v\303\251rifier vos r\303\251ponses visuellement.</Font></Text-field><Text-field style="Text" layout="Normal" bulletsuffix="."></Text-field><Text-field style="Text" layout="Normal" bulletsuffix="."><Font italic="true">Indication </Font>: Utilisez les fonctions Maple <Hyperlink linktarget="Help:singular" hyperlink="true"><Font underline="true" style="Maple Input" executable="false">singular</Font></Hyperlink>, <Hyperlink linktarget="Help:iscont" hyperlink="true"><Font underline="true" style="Maple Input" executable="false">iscont</Font></Hyperlink>, <Hyperlink linktarget="Help:limit" hyperlink="true"><Font underline="true" style="Maple Input" executable="false">limit</Font><Font style="Text">.</Font></Hyperlink></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 5. Graphes</Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Tracez sur le m\303\252me graphique les graphes de </Font><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkc2luRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGMkYyLUYsNiNRIUYnRkFGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEkc2luRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRInhGJy9GMFEldHJ1ZUYnL0YzUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGMkYyLUYsNiNRIUYnRkFGMg==</Equation> et de <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctRjM2LVEqJnVtaW51czA7RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjIyMjIyMjJlbUYnL0ZJRk5GMi1JJm1mcmFjR0YkNihGKy1GIzYlLUYsNiRRIjJGJ0YvLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lLmxpbmV0aGlja25lc3NHRi4vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW28vJSliZXZlbGxlZEdGOC1JJW1zdXBHRiQ2JS1JKG1mZW5jZWRHRiQ2JC1GIzYnLUkjbWlHRiQ2JVEieEYnRlhGZW4tRjM2LVEoJm1pbnVzO0YnRi9GNkY5RjtGPUY/RkFGQ0ZNRk8tRlE2KC1GIzYkLUZpbzYlUScmIzk2MDtGJy9GWUY4Ri9GL0ZTRmduRmluRlxvRl5vLyUrYmFja2dyb3VuZEdRLlsyNTUsMjU1LDI1NV1GJ0YvRi9GUy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGZ3BGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIn5GJ0YvLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y4LyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkctRjM2LVEqJnVtaW51czA7RidGL0Y2RjlGO0Y9Rj9GQUZDL0ZGUSwwLjIyMjIyMjJlbUYnL0ZJRk5GMi1JJm1mcmFjR0YkNihGKy1GIzYlLUYsNiRRIjJGJ0YvLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lLmxpbmV0aGlja25lc3NHRi4vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW28vJSliZXZlbGxlZEdGOC1JJW1zdXBHRiQ2JS1JKG1mZW5jZWRHRiQ2JC1GIzYnLUkjbWlHRiQ2JVEieEYnRlhGZW4tRjM2LVEoJm1pbnVzO0YnRi9GNkY5RjtGPUY/RkFGQ0ZNRk8tRlE2KC1GIzYkLUZpbzYlUScmIzk2MDtGJy9GWUY4Ri9GL0ZTRmduRmluRlxvRl5vLyUrYmFja2dyb3VuZEdRLlsyNTUsMjU1LDI1NV1GJ0YvRi9GUy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGZ3BGLw==</Equation>pour <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn</Equation><Font encoding="UTF-8"> variant de -3 \303\240 3. Un ph\303\251nom\303\250ne int\303\251ressant devrait appara\303\256tre. Expliquez ce ph\303\251nom\303\250ne. </Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 6. Graphe et solutions</Text-field></Title><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">On veut r\303\251soudre l'\303\251quation </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUklbXN1cEdGJDYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYjNiYtSSNtbkdGJDYlUSIzRidGNS9GOVEnbm9ybWFsRidGMkY1RjgvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LlEifkYnRjVGQS8lJmZlbmNlR0Y3LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjcvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlotRkc2LlEqJnVtaW51czA7RidGNUZBRkpGTEZORlBGUkZURlYvRllRLDAuMjIyMjIyMmVtRicvRmZuRltvRkYtRi82JlEkY29zRicvRjNGN0Y1RkEtSShtZmVuY2VkR0YkNiUtRiM2JS1GLDYlRi4tRiM2Ji1GPjYlUSIyRidGNUZBRjJGNUY4RkNGNUZBRjVGQS1GLzYmUSRzaW5GJ0Zgb0Y1RkEtRmJvNiUtRiM2JUYuRjVGQUY1RkFGRi1GRzYuUSI9RidGNUZBRkpGTEZORlBGUkZURlYvRllRLDAuMjc3Nzc3OGVtRicvRmZuRmhwRkYtRj42JVEjMC5GJ0Y1RkFGNUZB">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUklbXN1cEdGJDYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYjNiYtSSNtbkdGJDYlUSIzRidGNS9GOVEnbm9ybWFsRidGMkY1RjgvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2LlEifkYnRjVGQS8lJmZlbmNlR0Y3LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjcvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlotRkc2LlEqJnVtaW51czA7RidGNUZBRkpGTEZORlBGUkZURlYvRllRLDAuMjIyMjIyMmVtRicvRmZuRltvRkYtRi82JlEkY29zRicvRjNGN0Y1RkEtSShtZmVuY2VkR0YkNiUtRiM2JS1GLDYlRi4tRiM2Ji1GPjYlUSIyRidGNUZBRjJGNUY4RkNGNUZBRjVGQS1GLzYmUSRzaW5GJ0Zgb0Y1RkEtRmJvNiUtRiM2JUYuRjVGQUY1RkFGRi1GRzYuUSI9RidGNUZBRkpGTEZORlBGUkZURlYvRllRLDAuMjc3Nzc3OGVtRicvRmZuRmhwRkYtRj42JVEjMC5GJ0Y1RkFGNUZB</Equation><Font encoding="UTF-8"> Dessinez le graphe du membre de gauche pour identifier les r\303\251gions o\303\271 on risque de trouver des racines, puis utilisez la commande </Font><Font style="Maple Input" executable="false">fsolve(f(x),x = a .. b)</Font>, qui cherche une solution de <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbkZCLUkjbW5HRiQ2JVEiMEYnRjJGQEZCRjJGQA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEieEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1JI21vR0YkNi5RIn5GJ0YyRkAvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZWLUZDNi5RIj1GJ0YyRkBGRkZIRkpGTEZORlBGUi9GVVEsMC4yNzc3Nzc4ZW1GJy9GWEZnbkZCLUkjbW5HRiQ2JVEiMEYnRjJGQEZCRjJGQA==</Equation>dans l'intervalle <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkobWZlbmNlZEdGJDYnLUYjNictSSNtaUdGJDYmUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GMTYmUSJiRidGNEY3RjpGN0ZBRjdGQS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GPjYuUSIuRidGN0ZBRkMvRkZGOUZHRklGS0ZNRk9GUS9GVUZTRjdGQQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkobWZlbmNlZEdGJDYnLUYjNictSSNtaUdGJDYmUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GMTYmUSJiRidGNEY3RjpGN0ZBRjdGQS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy1GPjYuUSIuRidGN0ZBRkMvRkZGOUZHRklGS0ZNRk9GUS9GVUZTRjdGQQ==</Equation></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font encoding="UTF-8">Exercice 7. C\303\264ne</Font></Text-field></Title><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Dessinez un c\303\264ne en utilisant la fonction </Font><Font style="Maple Input" executable="false">plot3d</Font>.</Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 8. Approximation de <Equation executable="false" style="Heading 2" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NjA7RicvJSVib2xkR1EmZmFsc2VGJy8lJ2l0YWxpY0dGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSVzaXplR1EjMTJGJ0YvLyUrYmFja2dyb3VuZEdRLlsyNTUsMjU1LDI1NV1GJ0Y0">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NjA7RicvJSVib2xkR1EmZmFsc2VGJy8lJ2l0YWxpY0dGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSVzaXplR1EjMTJGJ0YvLyUrYmFja2dyb3VuZEdRLlsyNTUsMjU1LDI1NV1GJ0Y0</Equation></Text-field></Title><Text-field style="Text" layout="Normal"><Font style="Normal" encoding="UTF-8">D\303\251finssez une fonction</Font></Text-field><Text-field style="Text" layout="Normal"><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRIm5GJ0YvRjIvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnL0YzUSdub3JtYWxGJ0ZALUkjbW9HRiQ2LVEifkYnRkAvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkgvJSlzdHJldGNoeUdGSC8lKnN5bW1ldHJpY0dGSC8lKGxhcmdlb3BHRkgvJS5tb3ZhYmxlbGltaXRzR0ZILyUnYWNjZW50R0ZILyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGVy1GQzYtUSI9RidGQEZGRklGS0ZNRk9GUUZTL0ZWUSwwLjI3Nzc3NzhlbUYnL0ZZRmhuRkItSSNtbkdGJDYkUSI0RidGQC1GNjYkLUYjNjAtRltvNiRRIjFGJ0ZALUZDNi1RKCZtaW51cztGJ0ZARkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjIyMjIyMmVtRicvRllGaW8tSSZtZnJhY0dGJDYoRmJvLUYjNiUtRltvNiRRIjNGJ0ZARi9GMi8lLmxpbmV0aGlja25lc3NHRmRvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRkgtRkM2LVEiK0YnRkBGRkZJRktGTUZPRlFGU0Zob0Zqby1GXHA2KEZiby1GIzYlLUZbbzYkUSI1RidGQEYvRjJGY3BGZXBGaHBGanBGZW8tRlxwNihGYm8tRiM2JS1GW282JFEiN0YnRkBGL0YyRmNwRmVwRmhwRmpwRlxxLUZDNi1RIy4uRidGQEZGRklGS0ZNRk9GUUZTRmhvRlgtRkM2LVEiLkYnRkBGRkZJRktGTUZPRlFGU0ZVRlhGXHEtRlxwNigtRiM2Ji1JJW1zdXBHRiQ2JS1GNjYkLUYjNiYtRkM2LVEqJnVtaW51czA7RidGQEZGRklGS0ZNRk9GUUZTRmhvRmpvRmJvRj1GQEZALUYjNiVGOkYvRjIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUYsNiNRIUYnRj1GQC1GIzYpLUZbbzYkUSIyRidGQEZCRjpGXHFGYm9GL0YyRmNwRmVwRmhwRmpwRj1GQEZARj1GQA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRIm5GJ0YvRjIvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnL0YzUSdub3JtYWxGJ0ZALUkjbW9HRiQ2LVEifkYnRkAvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkgvJSlzdHJldGNoeUdGSC8lKnN5bW1ldHJpY0dGSC8lKGxhcmdlb3BHRkgvJS5tb3ZhYmxlbGltaXRzR0ZILyUnYWNjZW50R0ZILyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGVy1GQzYtUSI9RidGQEZGRklGS0ZNRk9GUUZTL0ZWUSwwLjI3Nzc3NzhlbUYnL0ZZRmhuRkItSSNtbkdGJDYkUSI0RidGQC1GNjYkLUYjNjAtRltvNiRRIjFGJ0ZALUZDNi1RKCZtaW51cztGJ0ZARkZGSUZLRk1GT0ZRRlMvRlZRLDAuMjIyMjIyMmVtRicvRllGaW8tSSZtZnJhY0dGJDYoRmJvLUYjNiUtRltvNiRRIjNGJ0ZARi9GMi8lLmxpbmV0aGlja25lc3NHRmRvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRkgtRkM2LVEiK0YnRkBGRkZJRktGTUZPRlFGU0Zob0Zqby1GXHA2KEZiby1GIzYlLUZbbzYkUSI1RidGQEYvRjJGY3BGZXBGaHBGanBGZW8tRlxwNihGYm8tRiM2JS1GW282JFEiN0YnRkBGL0YyRmNwRmVwRmhwRmpwRlxxLUZDNi1RIy4uRidGQEZGRklGS0ZNRk9GUUZTRmhvRlgtRkM2LVEiLkYnRkBGRkZJRktGTUZPRlFGU0ZVRlhGXHEtRlxwNigtRiM2Ji1JJW1zdXBHRiQ2JS1GNjYkLUYjNiYtRkM2LVEqJnVtaW51czA7RidGQEZGRklGS0ZNRk9GUUZTRmhvRmpvRmJvRj1GQEZALUYjNiVGOkYvRjIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUYsNiNRIUYnRj1GQC1GIzYpLUZbbzYkUSIyRidGQEZCRjpGXHFGYm9GL0YyRmNwRmVwRmhwRmpwRj1GQEZARj1GQA==</Equation></Text-field><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">et v\303\251rifiez informellement que </Font><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRIm5GJ0YvRjIvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnL0YzUSdub3JtYWxGJ0ZARj1GQA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiVRIm5GJ0YvRjIvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnL0YzUSdub3JtYWxGJ0ZARj1GQA==</Equation> tend vers <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEnJiM5NjA7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRidGMg==</Equation> si <Font italic="true">n</Font> tend vers l'infini.</Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font italic="true">Indication</Font>: <Font encoding="UTF-8">Vous pouvez utiliser la proc\303\251dure de Maple </Font><Font style="Maple Input" executable="false">sum</Font>, tapez <Font style="Maple Input" executable="false">help(sum)</Font>pour savoir comment.</Text-field>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 9. Nombres premiers</Text-field></Title><Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Ecrivez une proc\303\251dure qui retourne le nombre de nombres premiers contenus entre </Font><Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2JhY2tncm91bmRHUS5bMjU1LDI1NSwyNTVdRicvRjNRJ25vcm1hbEYn</Equation> et <Equation executable="false" style="Normal" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIitGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJDEwMEYnRjkvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIitGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGTC1JI21uR0YkNiRRJDEwMEYnRjkvJStiYWNrZ3JvdW5kR1EuWzI1NSwyNTUsMjU1XUYnRjk=</Equation><Font encoding="UTF-8">. Utilisez votre proc\303\251dure pour estimer qualitativement le comportement de la densit\303\251 de nombres premiers en fonction de n, pour n grand par rapport \303\240 100.</Font></Text-field><Text-field style="Normal" layout="Normal"></Text-field><Text-field style="Normal" layout="Normal"><Font italic="true">Indication</Font><Font encoding="UTF-8">: Par exemple, utilisez votre proc\303\251dure avec quelques nombres </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvJTBmb250X3N0eWxlX25hbWVHUSdOb3JtYWxGJy9GNlEnbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEibkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvJTBmb250X3N0eWxlX25hbWVHUSdOb3JtYWxGJy9GNlEnbm9ybWFsRic=</Equation> <Font encoding="UTF-8"> proches de 1000. R\303\251p\303\251tez l'op\303\251ration avec quelques nombres proches de 1000000 et de 1000000000.</Font></Text-field>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Exercice 10. Nombre d'or</Text-field></Title><Text-field style="Text" layout="Normal"><Font size="14">a)</Font><Font encoding="UTF-8"> On consid\303\250re l'expression suivante:</Font></Text-field><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSI9RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSy1JI21uR0YkNiVRIjFGJ0YyRjQtRjg2LlEiK0YnRjJGNEY7Rj1GP0ZBRkNGRUZHL0ZKUSwwLjIyMjIyMjJlbUYnL0ZNRlYtSSZtZnJhY0dGJDYoRk4tRiM2KEZORlItRlk2KEZOLUYjNihGTkZSLUZZNihGTi1GIzYoRk5GUi1GWTYoRk4tRiM2Jy1GODYuUSMuLkYnRjJGNEY7Rj1GP0ZBRkNGRUZHRlUvRk1RJjAuMGVtRictRjg2LlEiLkYnRjJGNEY7Rj1GP0ZBRkNGRUZHL0ZKRmdvRmZvL0YwUSV0cnVlRidGMi9GNVEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR0ZRLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmRwLyUpYmV2ZWxsZWRHRjFGXHBGMkZecEZgcEZicEZlcEZncEZccEYyRl5wRmBwRmJwRmVwRmdwRlxwRjJGXnBGYHBGYnBGZXBGZ3BGMkY0">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSI9RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSy1JI21uR0YkNiVRIjFGJ0YyRjQtRjg2LlEiK0YnRjJGNEY7Rj1GP0ZBRkNGRUZHL0ZKUSwwLjIyMjIyMjJlbUYnL0ZNRlYtSSZtZnJhY0dGJDYoRk4tRiM2KEZORlItRlk2KEZOLUYjNihGTkZSLUZZNihGTi1GIzYoRk5GUi1GWTYoRk4tRiM2Jy1GODYuUSMuLkYnRjJGNEY7Rj1GP0ZBRkNGRUZHRlUvRk1RJjAuMGVtRictRjg2LlEiLkYnRjJGNEY7Rj1GP0ZBRkNGRUZHL0ZKRmdvRmZvL0YwUSV0cnVlRidGMi9GNVEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR0ZRLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmRwLyUpYmV2ZWxsZWRHRjFGXHBGMkZecEZgcEZicEZlcEZncEZccEYyRl5wRmBwRmJwRmVwRmdwRlxwRjJGXnBGYHBGYnBGZXBGZ3BGMkY0</Equation></Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">form\303\251e d'une cha\303\256ne infinie de fractions imbriqu\303\251es. Une telle expression est appel\303\251e une </Font><Font italic="true">fraction continue</Font>. </Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ecrivez une proc\303\251dure qui calcule le </Font><Font style="2D Math" italic="true">n</Font><Font encoding="UTF-8">i\303\250me convergent, c'est-\303\240-dire la fraction continue, tronqu\303\251e au </Font><Font italic="true">n</Font><Font encoding="UTF-8">i\303\250me niveau. Le 3i\303\250me convergent est par exemple </Font></Text-field><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW5HRiQ2JVEiMUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiK0YnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkktSSZtZnJhY0dGJDYoRistRiM2J0YrRjUtRk02KEYrLUYjNidGK0Y1LUYsNiVRIjBGJ0YvRjJGL0YyLyUubGluZXRoaWNrbmVzc0dGLi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zmbi8lKWJldmVsbGVkR0YxRi9GMkZYRlpGZ25GaW4tRjY2LlEiPUYnRi9GMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjI3Nzc3NzhlbUYnL0ZLRl9vLUZNNigtRiw2JVEiM0YnRi9GMi1GIzYmLUYsNiVRIjJGJ0YvRjIvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRidGWEZaRmduRmluRi9GMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW5HRiQ2JVEiMUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiK0YnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkktSSZtZnJhY0dGJDYoRistRiM2J0YrRjUtRk02KEYrLUYjNidGK0Y1LUYsNiVRIjBGJ0YvRjJGL0YyLyUubGluZXRoaWNrbmVzc0dGLi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zmbi8lKWJldmVsbGVkR0YxRi9GMkZYRlpGZ25GaW4tRjY2LlEiPUYnRi9GMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjI3Nzc3NzhlbUYnL0ZLRl9vLUZNNigtRiw2JVEiM0YnRi9GMi1GIzYmLUYsNiVRIjJGJ0YvRjIvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRidGWEZaRmduRmluRi9GMg==</Equation></Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">En utilisant cette proc\303\251dure, calculer les 6 premiers convergents (sous forme de fraction).</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font size="14">b)</Font><Font encoding="UTF-8"> On d\303\251finit les </Font><Font italic="true">nombres de Fibonacci</Font><Font encoding="UTF-8"> par r\303\251currence, comme suit: </Font></Text-field><Text-field style="2D Math" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUklbXN1YkdGJDYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiZRIjFGJ0YyRjVGOC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZaLUkjbW5HRiQ2JUY9RjVGSEY1Rkg=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUklbXN1YkdGJDYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiZRIjFGJ0YyRjVGOC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZaLUkjbW5HRiQ2JUY9RjVGSEY1Rkg=</Equation></Text-field><Text-field style="2D Math" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2I1EhRictSSVtc3ViR0YkNiYtRiw2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYsNiZRIjJGJ0Y1RjhGOy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictSSNtb0dGJDYuUSI9RidGOC9GPFEnbm9ybWFsRicvJSZmZW5jZUdGOi8lKnNlcGFyYXRvckdGOi8lKXN0cmV0Y2h5R0Y6LyUqc3ltbWV0cmljR0Y6LyUobGFyZ2VvcEdGOi8lLm1vdmFibGVsaW1pdHNHRjovJSdhY2NlbnRHRjovJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Znbi1JI21uR0YkNiVRIjFGJ0Y4RktGOEZL">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2I1EhRictSSVtc3ViR0YkNiYtRiw2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYsNiZRIjJGJ0Y1RjhGOy8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictSSNtb0dGJDYuUSI9RidGOC9GPFEnbm9ybWFsRicvJSZmZW5jZUdGOi8lKnNlcGFyYXRvckdGOi8lKXN0cmV0Y2h5R0Y6LyUqc3ltbWV0cmljR0Y6LyUobGFyZ2VvcEdGOi8lLm1vdmFibGVsaW1pdHNHRjovJSdhY2NlbnRHRjovJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Znbi1JI21uR0YkNiVRIjFGJ0Y4RktGOEZL</Equation></Text-field><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUklbXN1YkdGJDYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiZRJG4rMkYnRjJGNUY4LyUvc3Vic2NyaXB0c2hpZnRHUSIwRicvSSttc2VtYW50aWNzR0YkUSdhdG9taWNGJy1JI21vR0YkNi5RIj1GJ0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y3LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjcvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlotRiw2JkYuLUYvNiZRJG4rMUYnRjJGNUY4Rj5GQS1GRTYuUSIrRidGNUZIRkpGTEZORlBGUkZURlYvRllRLDAuMjIyMjIyMmVtRicvRmZuRmBvLUYsNiZGLi1GLzYmUSJuRidGMkY1RjhGPkZBLUYvNiNRIUYnRjVGSA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUklbXN1YkdGJDYmLUkjbWlHRiQ2JlEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUYvNiZRJG4rMkYnRjJGNUY4LyUvc3Vic2NyaXB0c2hpZnRHUSIwRicvSSttc2VtYW50aWNzR0YkUSdhdG9taWNGJy1JI21vR0YkNi5RIj1GJ0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y3LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjcvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlotRiw2JkYuLUYvNiZRJG4rMUYnRjJGNUY4Rj5GQS1GRTYuUSIrRidGNUZIRkpGTEZORlBGUkZURlYvRllRLDAuMjIyMjIyMmVtRicvRmZuRmBvLUYsNiZGLi1GLzYmUSJuRidGMkY1RjhGPkZBLUYvNiNRIUYnRjVGSA==</Equation></Text-field><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Ecrivez une proc\303\251dure calculant le </Font><Font italic="true">n</Font><Font encoding="UTF-8">i\303\250me nombre de Fibonacci. Utilisez cette proc\303\251dure pour calculer les fractions</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRUYrLUkmbWZyYWNHRiQ2KC1JJW1zdWJHRiQ2Ji1JI21pR0YkNiZRImZGJy8lJ2l0YWxpY0dRJXRydWVGJ0YvL0YzUSdpdGFsaWNGJy1GTzYmUSRuKzJGJ0ZSRi9GVS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictRiM2Ji1GTDYmRk4tRk82JlEkbisxRidGUkYvRlVGWkZnbkZSRi9GVS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZm8vJSliZXZlbGxlZEdGMUYvRjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRUYrLUkmbWZyYWNHRiQ2KC1JJW1zdWJHRiQ2Ji1JI21pR0YkNiZRImZGJy8lJ2l0YWxpY0dRJXRydWVGJ0YvL0YzUSdpdGFsaWNGJy1GTzYmUSRuKzJGJ0ZSRi9GVS8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnL0krbXNlbWFudGljc0dGJFEnYXRvbWljRictRiM2Ji1GTDYmRk4tRk82JlEkbisxRidGUkYvRlVGWkZnbkZSRi9GVS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZm8vJSliZXZlbGxlZEdGMUYvRjI=</Equation><Font encoding="UTF-8"> . Celles-ci devraient \303\252tre identiques aux convergents calcul\303\251s au point a). Expliquez pourquoi.</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font size="14">c)</Font> Remarquez que la fraction continue <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=</Equation><Font encoding="UTF-8">coincide avec le d\303\251nominateur du second terme dans l'\303\251quation d\303\251finissant </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=</Equation><Font encoding="UTF-8">ci-dessus. Utilisez cette propri\303\251t\303\251 pour trouver une \303\251quation satisfaite par </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSJ+RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=</Equation><Font encoding="UTF-8">. R\303\251solvez cette \303\251quation pour trouver la valeur de </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRS1JI21pR0YkNiZRJyYjOTM0O0YnLyUnaXRhbGljR0YxRi9GMkYvRjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRS1JI21pR0YkNiZRJyYjOTM0O0YnLyUnaXRhbGljR0YxRi9GMkYvRjI=</Equation>.</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JlEmJlBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJStleGVjdXRhYmxlR0YuLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JlEmJlBoaTtGJy8lJ2l0YWxpY0dRJmZhbHNlRicvJStleGVjdXRhYmxlR0YuLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJw==</Equation> s'appelle le <Font italic="true">nombre d'or</Font><Font encoding="UTF-8">. Comme les convergents convergent n\303\251cessairement vers la fraction continue correspondante, on a prouv\303\251 dans cet exercice que la suite form\303\251e par les quotients de nombres de Fibonacci successifs converge vers le nombre d'or </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIuRidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEnJiM5MzQ7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIuRidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGS0YyRjQ=</Equation></Text-field>
+</Section>
+</Section><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Worksheet>
